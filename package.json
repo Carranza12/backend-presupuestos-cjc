@@ -6,8 +6,7 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
-    "start:prod": "node dist/src/main.js",
-    "postinstall": "npm run prestart:prod",
+    "start:prod": "node dist/main.js",
     "prebuild": "rimraf dist",
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
